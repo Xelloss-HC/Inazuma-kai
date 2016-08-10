@@ -15,13 +15,13 @@
       "matches": [ "*://game.granbluefantasy.jp/*", "http://gbf.game.mbga.jp/*" ],
       "run_at": "document_end"
    } ],
-   "description": "Will notify whenever raid shows in the raid page",
+   "description": "イナズマ·改",
    "icons": {
       "128": "icon128.png"
    },
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA08aWD3GtkTN3GQ9LpDDSIXxDoXmCTBOLLc2+4hppCZskm7X8pjxmcB615ZOeuJnWF98qfatI7QPtRFtxgW/xzIeNufTv6f2VuAQuYdI/bj0sRpNTtBL9JrjiqDqxqvMs+lX0n1JJ4g4A7/jE+jp5t4lRJPUvGV/4JBd+caNzs4yPJk/5xU7Tqh/yUeDGKT2esJyl8+/gyvGAxDwsTEpppRbXYZIuYY28QLcDtWoxeBsbFjsjYnd3UiSoZWHDxdLORStsWv/q0QE71iDNmzBLY8JR6R5XGVqtaTTSGtj/cgEQ/kNDfJzju6KiUMA/BummCkejvvVjwVVB8L6gV131iQIDAQAB",
    "manifest_version": 2,
-   "name": "Grandblue Fantasy Bahamut Warner",
+   "name": "イナズマ·改",
    "permissions": [ "tabs", "http://*/*", "https://*/*", "notifications", "storage" ],
    "version": "0.0.4",
    "web_accessible_resources": [ "reload.js", "inject/click_.js", "inject/load_.js", "inject/engine.js", "inject/select_all_normal.js", "inject/weapon.js" ]
