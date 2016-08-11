@@ -57,8 +57,8 @@ window.Engine = {
 			if (btninfo.w = button.innerWidth() * o, btninfo.h = button.innerHeight() * o, a.is(document.body))
 				for (var s = button; s[0x0] != document.body; s = s.parent()) e = s.position(), btninfo.y = btninfo.y + e.top * o, btninfo.x = btninfo.x + e.left * o;
 
-			tx = Math.round(btninfo.x + Math.random() * btninfo.w);
-			ty = Math.round(btninfo.y + Math.random() * btninfo.h);
+			var tx = Math.round(btninfo.x + Math.random() * btninfo.w),
+			ty = Math.round(btninfo.y + Math.random() * btninfo.h),
 			tpe = new MouseEvent('tap', {
 				view: window,
 				bubbles: true,
